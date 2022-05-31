@@ -17,4 +17,18 @@ public class Pattern {
             System.out.println();
         }
     }
+
+    public static void showPattern2() {
+        System.out.println("------------------------------------------------");
+        System.out.println("Pattern 2");
+        System.out.println("Masukkan nilai max");
+        Scanner userInput = new Scanner(System.in);
+        int n = Integer.parseInt(userInput.nextLine());
+        for (int i = n; i > 0; i--) {
+            for (int j = i; j > 0; j--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
 }

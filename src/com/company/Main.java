@@ -10,5 +10,6 @@ public class Main {
         System.out.println("change2");
 
         Pattern.showPattern1();
+        Pattern.showPattern2();
     }
 }
